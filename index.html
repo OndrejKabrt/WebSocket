@@ -20,6 +20,7 @@
             height: 20px;
             background-color: red;
             display: none;
+            pointer-events: none;
         }
     </style>
 </head>
@@ -30,11 +31,11 @@
     <button id="join">Připojit</button>
     <div id="status">Nepřipojen</div>
     <div id="connectedUsers">Uživatelé</div>
-    <div id="editorContainer" contenteditable="true"></div>
+    <div id="editorContainer" contenteditable="False"></div>
     
     <script src="/socket.io/socket.io.js"></script>
     <script scr="/script.js"></script>
-    
+
 </body>
 </html>
 
